@@ -86,7 +86,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.363);
 }
 
 .colocar-dados button {
@@ -102,7 +101,6 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.363);
     cursor: pointer;
 }
 
@@ -146,7 +144,7 @@ body {
 .enter-microsoft {
     display: flex;
     width: 426px;
-    height: 100px;
+    height: 60px;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -168,4 +166,11 @@ h3:hover {
     color: blue;
     font-size: 28px;
     transition: 0.5s;
+}
+
+img {
+    margin-top: 25%;
+    width: 45px;
+height: 45px;
+flex-shrink: 0;
 }
