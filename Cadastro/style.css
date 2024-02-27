@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-/* PAINEL DE LOGIN */
+/* PAINEL DE CADASTRO */
 
 .container {
     display: flex;
@@ -28,9 +28,9 @@ body {
     box-shadow: 10px 10px 17.3px 0px rgba(0, 0, 0, 0.07);
 }
 
-/* PARTE DO LOGIN E NOVO USUÁRIO */
+/* PARTE DO CADASTRO E LOGIN */
 
-.login h4 {
+.cadastro h4 {
     width: 426px;
     color: #000;
     font-size: 36px;
@@ -39,7 +39,7 @@ body {
     line-height: normal;
 }
 
-.login p {
+.cadastro p {
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -47,7 +47,7 @@ body {
     line-height: normal;
 }
 
-.login a {
+.cadastro a {
     color: #1976D2;
     font-size: 20px;
     font-style: normal;
@@ -56,13 +56,13 @@ body {
     text-decoration: none;
 }
 
-.login a:hover {
+.cadastro a:hover {
     color: blue;
     font-size: 22px;
     transition: 0.5s;
 }
 
-/* PARTE PARA ADICIONAR O EMAIL, SENHA E O BOTÃO */
+/* PARTE PARA ADICIONAR DADOS DO CADASTRO */
 
 .colocar-dados {
     display: flex;
